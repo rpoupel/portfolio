@@ -102,11 +102,11 @@ div#lightbox div.lightbox_nav button + button {
 }
 
 div#lightbox div.lightbox_nav button.lightbox_previous span.icon {
-  background-image: url(images_webp/lightbox/button_previous.svg);
+  background-image: url(portfolio/images_webp/lightbox/button_previous.svg);
 }
 
 div#lightbox div.lightbox_nav button.lightbox_next span.icon {
-  background-image: url(images_webp/lightbox/button_next.svg);
+  background-image: url(portfolio/images_webp/lightbox/button_next.svg);
 }
 
 div#lightbox div.lightbox_nav + div.lightbox_container {
@@ -190,7 +190,7 @@ div#lightbox div.lightbox_container div.lightbox_window div.lightbox_frame butto
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url(images_webp/lightbox/button_close.svg);
+  background-image: url(portfolio/images_webp/lightbox/button_close.svg);
   background-position: 50% 50%;
   background-size: auto 35%;
 }
@@ -213,7 +213,7 @@ div#lightbox div.lightbox_container div.lightbox_window div.lightbox_ajax {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(images_webp/lightbox/ajax_loader.svg);
+  background-image: url(portfolio/images_webp/lightbox/ajax_loader.svg);
   background-size: 100% 100%;
   opacity: 0;
   -webkit-transition-property: opacity;
