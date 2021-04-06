@@ -217,6 +217,25 @@ margin-left:70px;
   width: 100%;
 }
 
+.column1 {
+  flex: 20%;
+  max-width:100%;
+  padding: 10px;
+}
+
+.column1 picture img {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column1 video {
+  margin-top: 30px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 
 .container 		{
   font-family:'Avara_Bold';

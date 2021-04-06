@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="https://romanepoupelin.netlify.app/teuhtli.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Romane Poupelin | Guide de randonnées" />
+    <meta property="og:description" content="Designer graphique print/Web, aussi amatrice de photographie, de gravure et de heavy metal, basée à Valenciennes et Orléans." />
+    <meta property="og:image" content="images_webp/og_image.png" />
+          <meta name="description" content="Projet de design éditorial d'un guide de randonnées au Québec" />
+    <link rel="shortcut icon" href="images_webp/FAVICON.png" type="image/x-icon">
+  <title>Romane Poupelin | Teuhtli</title>
+  <meta name="description" content="Page d'accueil"> <!-- Meta Description -->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="fonts/font.css"/>
+</head>
+
+<header>
+<nav id="menu">
+  <button id="close" href="#">&times;</button>
+
+  <ul>
+<li> <a href="index.html"> Romane Poupelin </a> </li>
+  <li> <a href="photographie.html"> Photographie </a> </li>
+  <li> <a href="about.html"> A propos </a> </li>
+  <li> <a href="contact.html"> Contact </a> </li>
+  <li> <a href="404.html"> EN</a> </li>
+    </ul>
+</nav>
+
+<button id="open" href="#"><img src="images_webp/bouton.png" alt="Menu" title="Menu"/></button>
+</header>
+
+<body>
+
+
+<h3>Un livre sur John Cage</h3>
+<h4>2019</h4>
+
+<div id="description">
+Mise en page de « John Cage ou les histoires du doute » de Vincent Broqua. Rapproche une mise en page stricte et organisée et un dégradé de points, comme un brouillard plus ou moins indistinct, une transition entre le silence et le bruit, sans début, ni fin, du milieu. Le texte du titre émerge de ce nuage, apparait et disparait de manière indéterminée – l’indétermination étant un des mots-clés à rapprocher de John Cage.<br>
+  Format : 140 x 215mm
+</div>
+
+<section itemscope itemtype="http://schema.org/ImageGallery">
+
+     <div class="row">
+        <div class="column1">
+          <picture><source srcset="images_webp/cage1.webp" type="image/webp">
+              <source srcset="images_webp/cage1.jpg" alt="Livre sur John Cage page 1" title="Livre sur John Cage page 1">
+                <source srcset="images_webp/cage1.webp" type="image/webp" media="(min-width:800px)">
+                  <img src="images_webp/cage1.jpg" alt="Livre sur John Cage page 1" title="Livre sur John Cage page 1" media="(min-width:800px)">
+           </picture>
+           <picture><source srcset="images_webp/cage2.webp" type="image/webp">
+             <source srcset="images_webp/cage2.jpg" alt="Livre sur John Cage page 2" title="Livre sur John Cage page 2">
+               <source srcset="images_webp/cage2.webp" type="image/webp" media="(min-width:800px)">
+                 <img src="images_webp/cage1.jpg" alt="Livre sur John Cage page 1" title="Livre sur John Cage page 2" media="(min-width:800px)">
+          </picture>
+          <picture><source srcset="images_webp/cage3.webp" type="image/webp">
+            <source srcset="images_webp/cage3.jpg" alt="Livre sur John Cage page 3" title="Livre sur John Cage page 3">
+              <source srcset="images_webp/cage3.webp" type="image/webp" media="(min-width:800px)">
+                <img src="images_webp/cage3.jpg" alt="Livre sur John Cage page 3" title="Livre sur John Cage page 3" media="(min-width:800px)">
+         </picture>
+         <picture><source srcset="images_webp/cage4.webp" type="image/webp">
+           <source srcset="images_webp/cage4.jpg" alt="Livre sur John Cage page 4" title="Livre sur John Cage page 4">
+             <source srcset="images_webp/cage4.webp" type="image/webp" media="(min-width:800px)">
+               <img src="images_webp/cage4.jpg" alt="Livre sur John Cage page 4" title="Livre sur John Cage page 4" media="(min-width:800px)">
+        </picture>
+        <picture><source srcset="images_webp/cage.webp" type="image/webp">
+          <source srcset="images_webp/cage.jpg" alt="Livre sur John Cage couverture" title="Livre sur John Cage couverture">
+            <source srcset="images_webp/cage.webp" type="image/webp" media="(min-width:800px)">
+              <img src="images_webp/cage.jpg" alt="Livre sur John Cage couverture" title="Livre sur John Cage couverture" media="(min-width:800px)">
+       </picture>
+
+     </div>
+
+	</div>
+  		</div>
+  </section>
+
+
+  <footer>
+    <a href="#" id="bcktop"> Retour en haut ↑</a>
+  <a href="https://www.instagram.com/romane_poupelin/" rel="nofollow noopener noreferrer" target="_blank"> <img src="images_webp/instagram.png" alt="Mon compte Instagram" > </a>
+    Romane Poupelin - 2020
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      jQuery(document).ready(function($){
+
+        $("#open").click(function(){
+          $("header nav").addClass("open");
+        });
+
+        $("#close").click(function(){
+          $("header nav").removeClass("open");
+        });
+      });
+    </script>
+</body>
+
+
+
+</html>
