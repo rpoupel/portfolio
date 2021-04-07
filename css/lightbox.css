@@ -213,7 +213,7 @@ div#lightbox div.lightbox_container div.lightbox_window div.lightbox_ajax {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-image: url(../images_webp/lightbox/ajax_loader.svg);
+  background-image: url(lightbox/ajax_loader.svg);
   background-size: 100% 100%;
   opacity: 0;
   -webkit-transition-property: opacity;
