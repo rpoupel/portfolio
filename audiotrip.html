@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="https://romanepoupelin.netlify.app/audiotrip.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Romane Poupelin | AudioTrip" />
+    <meta property="og:description" content="Designer graphique print/Web, aussi amatrice de photographie, de gravure et de heavy metal, basée à Valenciennes et Orléans." />
+    <meta property="og:image" content="images_webp/og_image.png" />
+          <meta name="description" content="Prototype d'une WebApp basée sur les données d'écoute d'un utilisateur de plateformes de streaming musical" />
+    <link rel="shortcut icon" href="images_webp/FAVICON.png" type="image/x-icon">
+  <title>Romane Poupelin | Diabolus in Musica </title>
+  <meta name="description" content="Page d'accueil"> <!-- Meta Description -->
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="fonts/font.css"/>
+</head>
+
+<header>
+<nav id="menu">
+  <button id="close" href="#">&times;</button>
+
+  <ul>
+<li> <a href="index.html"> Romane Poupelin </a> </li>
+  <li> <a href="photographie.html"> Photographie </a> </li>
+  <li> <a href="about.html"> A propos </a> </li>
+  <li> <a href="contact.html"> Contact </a> </li>
+  <li> <a href="404.html"> EN</a> </li>
+    </ul>
+</nav>
+
+<button id="open" href="#"><img src="images_webp/bouton.png" alt="Menu" title="Menu"/></button>
+</header>
+
+<body>
+
+
+<h3>AudioTrip (Prototype)</h3>
+<h4>2021</h4>
+
+<div id="description">
+  Projet de groupe/Vidéo à venir  <br><br>
+  AudioTrip est une Web App qui construit une cartographie personnelle à partir des écoutes musicales de l'utilisateur, afin de lui en apprendre plus sur ses genres favoris, lui donner accès à des ressources documentaires et à lieux à visiter, pour de vrai, ou par le biais de contenus en réalité virtuelle/augmentée. Il est aussi possible d'apporter sa contribution en proposant des ressources supplémentaires. En résumé, c’est une visualisation de données qui permet d’agréger des contenus autour de courants musicaux et de la culture qui y est associée pour permettre à l'utilisateur de s’approprier ses données, enrichir sa culture musicale et créer son propre contenu.
+  <br>
+  Le but d’AudioTrip est de faire prendre conscience à un large public que la musique est plus que de l’écoute, c’est une pratique sociale qui prend une dimension collective ; il est aussi intéressant de mettre en avant que l’émergence et le développement de chaque genre est à mettre en relation avec des contextes et des facteurs sociaux, culturels, politiques, technologiques… ce que met en évidence un graphe sous forme de carte géographique.
+
+</div>
+
+<section itemscope itemtype="http://schema.org/ImageGallery">
+
+     <div class="row">
+        <div class="column">
+          <picture><source srcset="images_webp/audiotrip2.webp" type="image/webp">
+              <source srcset="images_webp/audiotrip2.jpg" alt="AudioTrip Mockup Contenu livres" title="AudioTrip Mockup Contenu livres">
+                <source srcset="images_webp/vignette_audiotrip3.webp" type="image/webp" media="(min-width:800px)">
+                  <img src="images_webp/vignette_audiotrip2.jpg" alt="AudioTrip Mockup Contenu livres" title="AudioTrip Mockup Contenu livres" media="(min-width:800px)">
+           </picture>
+       <picture><source srcset="images_webp/audiotrip3.webp" type="image/webp">
+           <source srcset="images_webp/audiotrip3.jpg" alt="AudioTrip Mockup Contenu livres" title="AudioTrip Mockup Contenu livres">
+             <source srcset="images_webp/vignette_audiotrip3.webp" type="image/webp" media="(min-width:800px)">
+               <img src="images_webp/vignette_audiotrip3.jpg" alt="AudioTrip Mockup Contenu livres" title="AudioTrip Mockup Contenu livres" media="(min-width:800px)">
+        </picture>
+          		</div>
+
+                <div class="column">
+        <picture><source srcset="images_webp/audiotrip4.webp" type="image/webp">
+            <source srcset="images_webp/audiotrip4.jpg" alt="AudioTrip Mockup Carte de distribution d'un genre" title="AudioTrip Mockup Carte de distribution d'un genre">
+              <source srcset="images_webp/vignette_audiotrip4.webp" type="image/webp" media="(min-width:800px)">
+                <img src="images_webp/vignette_audiotrip4.jpg" alt="AudioTrip Mockup Carte de distribution d'un genre" title="AudioTrip Mockup Carte de distribution d'un genre" media="(min-width:800px)">
+         </picture>
+         <picture><source srcset="images_webp/audiotrip5.webp" type="image/webp">
+             <source srcset="images_webp/audiotrip5.jpg" alt="AudioTrip Mockup écran de connexion" title="AudioTrip Mockup écran de connexion">
+               <source srcset="images_webp/vignette_audiotrip5.webp" type="image/webp" media="(min-width:800px)">
+                 <img src="images_webp/vignette_audiotrip5.jpg" alt="AudioTrip Mockup écran de connexion" title="AudioTrip Mockup écran de connexion" media="(min-width:800px)">
+          </picture>
+  		</div>
+
+  		</div>
+  </section>
+
+
+  <footer>
+    <a href="#" id="bcktop"> Retour en haut ↑</a>
+  <a href="https://www.instagram.com/romane_poupelin/" rel="nofollow noopener noreferrer" target="_blank"> <img src="images_webp/instagram.png" alt="Mon compte Instagram" > </a>
+    Romane Poupelin - 2020
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      jQuery(document).ready(function($){
+
+        $("#open").click(function(){
+          $("header nav").addClass("open");
+        });
+
+        $("#close").click(function(){
+          $("header nav").removeClass("open");
+        });
+      });
+    </script>
+</body>
+
+
+
+</html>
