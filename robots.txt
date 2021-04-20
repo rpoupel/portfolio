@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /contact.html
 
-Sitemap: http://www.???.com/sitemap.xml
+Sitemap: /sitemap.xml
