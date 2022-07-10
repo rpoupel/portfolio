@@ -122,6 +122,16 @@ margin-top:-10px;
 margin-right:100px;
 }
 
+h4 a:visited {
+  color: #ED2828;
+    text-decoration: none;
+}
+
+h4 a:link {
+  color: #ED2828;
+
+}
+
 #description{
   font-weight: normal;
   font-style: normal;
