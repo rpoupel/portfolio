@@ -154,7 +154,16 @@ font-family:'Avara_Bold';
 color: #ED2828;
 }
 
+#description i {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'Avara_Bold';
+  color:white;
+  font-size:16px;
 
+    margin-right:600px;
+    padding-bottom:50px;
+}
 
 #description:visited {
   color: #ED2828;
